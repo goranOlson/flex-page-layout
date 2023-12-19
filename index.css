@@ -34,14 +34,15 @@ article {
     /* background-color: #aaf; */
 }
 
-nav,
-aside {
-    flex: 1;
-}
+
+
 nav {
+    width: 300px;
     background-color: #fdd;
+    
 }
 aside {
+    width: 200px;
     background-color: #bfb;
 }
 
