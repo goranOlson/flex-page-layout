@@ -36,7 +36,7 @@ body {
 }
 
 /* cells */
-article, nav, aside, footer {
+article,  aside, footer {
     padding: 20px;
 }
 
@@ -47,11 +47,28 @@ article {
 
 
 
-nav {
-    width: 300px;
-    background-color: #fdd;
-    
+.page-nav {
+    width: max-content;
+    /* background-color: #fdd; */
+
+
+    order: 1;
+    position: absolute;
+    left: 8px;
+    align-self: flex-start;
+
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
+.page-nav .nav-icon {
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+}
+
+
 aside {
     width: 200px;
     background-color: #bfb;
