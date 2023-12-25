@@ -21,6 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
 }
 .page-logotype {
     width: max-content;
@@ -28,7 +29,8 @@ body {
     padding: 1px 8px 4px;
 }
 
-main {
+.page-main {
+    margin-top: 40px;
     display: flex;
     flex-grow: 1;
 }
